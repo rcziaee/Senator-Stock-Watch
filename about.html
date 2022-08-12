@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>About us</title>
+  <link href="atstyle.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;,1,700&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <section class="about">
+    <div class="main">
+      <img
+        src="https://www.investopedia.com/thmb/a8gsvsL1oY3Vg7bWsY_gmmf7Mhc=/2121x1414/filters:fill(auto,1)/new-york-stock-exchange--wall-st--new-york--usa-668600179-0b94e8ff192c4432a00dd8c05b1ee261.jpg">
+      <div class="about-text">
+        <h1>About Us</h1>
+        <h5>How to use <span1>Senator Stock Watch</span1>
+        </h5>
+        <p>Senator Stock Watch is a webpage that displays data about recent stock transactions from senators who
+          actively participate in stock trading.
+
+        <ul>
+          <li>Insider Trading Prevention: Investors can track stock market trades of senators in a convenient way.</li>
+          <li>Fast delivery: New trades and analytics are published as close to real-time as possible, providing the
+            most up-to-date STOCK Act information source available.</li>
+          <li>Trade reporting: Curated trading data from the last four years can be easily accessed with details such as
+             date, politician, stock, political party and more.</li>
+        </ul>
+        <br>
+        <span1><b><strong></strong></b></span1>
+        </p>
+        <a href="index.html"><button type="button">Home</button></a>
+        <!--        <a href="contact.html"><button type="button">Contact Us</button></a> -->
+      </div>
+    </div>
+  </section>
+
+  <script>
+    let input = [];
+    const password = "cssi";
+    window.addEventListener("keypress", (e) => {
+    input.push(e.key);
+    let userPass = input.slice(-password.length).join("")
+    if (userPass === password) {
+  
+    
+    const colors = [
+      '#2196f3',
+      '#e91e63',
+      '#ffeb3b',
+      '#74ff1d'
+    ];
+
+    function createSquare() {
+      const section = document.querySelector('section');
+      const square = document.createElement('span');
+
+      var size = Math.random() * 50;
+      square.style.width = 20 + size + 'px';
+      square.style.height = 20 + size + 'px';
+
+      square.style.top = Math.random() * innerHeight + 'px';
+      square.style.left = Math.random() * innerWidth + 'px';
+
+      const bg = colors[Math.floor(Math.random() * colors.length)];
+
+      square.style.background = bg;
+
+      section.appendChild(square);
+
+      setTimeout(() => {
+        square.remove();
+      }, 5000);
+    }
+  }
+    setInterval(createSquare, 150);
+ });
+  </script>
+</body>
+
+</html>

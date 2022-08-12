@@ -1,0 +1,134 @@
+.va {
+  display: flex;
+  align-items: center;
+}
+
+.hero,
+.cta {
+  background: url("https://wallpaper.dog/large/5442311.jpg"), linear-gradient(52deg, #42475C 0%, #20222E 71%);
+}
+
+.cta {
+  height: 500px;
+  border-top: 10px solid turquoise;
+}
+
+footer {
+  color: white;
+  background: rgb(14, 14, 14) !important;
+}
+
+footer strong {
+  color: #cf1717;
+}
+
+footer a {
+  color: #cf1717;
+}
+
+.title {
+  color: white;
+  font-weight: 800;
+  font-size: 4rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
+
+.subtitle {
+  color: white;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
+
+hr.content-divider {
+  max-width: 75px;
+  height: 2px;
+}
+
+#parallax-1 {
+  background: url(https://wallpaperaccess.com/full/5099747.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 6px solid #ff2800;
+}
+
+#parallax-1 hr {
+  background: #ff2800;
+}
+
+#parallax-2 {
+  background: url(https://media14.s-nbcnews.com/i/MSNBC/Components/Video/202003/nyse323.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 6px solid #ff2800;
+}
+
+#parallax-2 hr {
+  background: #ff2800;
+}
+
+#parallax-3 {
+  background: url(https://media.newyorker.com/photos/628d2a485ffc2a133c607721/master/pass/Cassidy-Stock-Market.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 6px solid #ff2800;
+}
+
+#parallax-3 hr {
+  background: #ff2800;
+}
+
+#parallax-4 {
+  background: url(https://wallpaperaccess.com/full/4190240.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 6px solid #ff2800;
+}
+
+#parallax-4 hr {
+  background: #ff2800;
+}
+
+.label {
+  color: white;
+}
+
+input {
+  background: transparent !important;
+  border: 1px solid turquoise !important;
+  color: white !important;
+}
+
+input::placeholder {
+  color: white !important;
+}
+
+/*  h1{
+  animation: ani1 3.5s steps(40, end),
+    ani2 .75s step-end infinite;
+}
+
+@keyframes ani1{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+@keyframes ani2{
+  from, to {border-color: transparent}
+  50%{border-color: #fff}
+} */
+.navbar-link {
+    background-color:#ffffff;
+}

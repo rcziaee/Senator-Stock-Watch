@@ -1,0 +1,33 @@
+button{
+  background: #f9004d;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+button:hover{
+  background: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
+
+/*  .image-resize{
+  height: 143px;
+  object-fit: cover;
+  object-position: center;
+} 
+ 
+.card{
+  width: 100%;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  float: left; 
+  height: calc(100vh/1.55);
+}*/

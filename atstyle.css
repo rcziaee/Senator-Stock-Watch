@@ -1,0 +1,115 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+section{
+  height: 100vh;
+}
+
+.about{
+  width: 100%;
+  padding: 78px 0px;
+  background-color: #191919;
+  background-image: url("https://webdesigndev.com/wp-content/uploads/2018/04/6a-Texture-Free-Dark-Backgrounds.jpg");
+}
+
+.about img{
+  height: auto;
+  width: 420px;
+}
+
+.about-text{
+  width: 550px;
+}
+
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text h1{
+  color: #fff;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text h5{
+  color: #fff;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+span1{
+  color: #f9004d;
+}
+
+.about-text p{
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+button{
+  background: #f9004d;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+button:hover{
+  background: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
+
+ul{
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+span{
+position: absolute;
+pointer-events: none;
+background: #fff;
+animation: animate 5s linear infinite;
+}
+
+@keyframes animate
+{
+0%
+  {
+    transform: scale(0) translateY(0) rotate(0deg);
+   opacity: 0;
+  }
+
+10%
+ {
+   opacity: 1;
+ }
+
+90%
+ {
+   opacity: 1;
+ }
+100%
+  {
+    transform: scale(1) translateY(-500%) rotate(360deg);
+  }
+}
